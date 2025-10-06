@@ -8,15 +8,15 @@ for i in range(materias_inscritas):
 print (notas_materias)
 
 media_notas = sum (notas_materias) / materias_inscritas
-if media_notas < 5
+if media_notas < 5:
     print(f"Tu media es de {media_notas} y tienes un insuficiente")
-elif media_notas < 6
+elif media_notas < 6:
     print(f"Tu media es de {media_notas} y tienes un suficiente")
-elif media_notas < 7.5
+elif media_notas < 7.5:
     print(f"Tu media es de {media_notas} y tienes un bien")
-elif media_notas < 9
+elif media_notas < 9:
     print(f"Tu media es de {media_notas} y tienes un notable")
-elif media_notas < 10
+elif media_notas < 10:
     print(f"Tu media es de {media_notas} y tienes un sobresaliente")
-elif media_notas = 10
+elif media_notas == 10:
     print(f"Tu media es de {media_notas} y tienes un sobresaliente con una mención honorífica")
