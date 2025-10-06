@@ -2,9 +2,12 @@ materias_inscritas = int(input("Introduzca el n√∫mero de materias a las que est√
 notas_materias = []
 for i in range(materias_inscritas):
     numero = i + 1
-    nota_materia = int(input(f"Introduzca la nota de la materia {numero}:
- "))
+    nota_materia = int(input(f"Introduzca la nota de la materia {numero}: "))
     notas_materias.append(nota_materia)
-    i + 1
 
 print (notas_materias)
+
+media_notas = sum (notas_materias) / materias_inscritas
+if media_notas = 5
+    print(f"Tu media es de {media_notas} y tienes un suficiente)
+elif media_notas 
