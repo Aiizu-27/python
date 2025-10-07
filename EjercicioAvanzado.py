@@ -6,8 +6,6 @@ for i in range(materias_inscritas):
     nota_materia = float(input(f"Introduzca la nota de la materia {numero}: "))
     notas_materias.append(nota_materia)
 
-print(notas_materias)
-
 media_notas = sum(notas_materias) / materias_inscritas
 
 if media_notas < 5:
